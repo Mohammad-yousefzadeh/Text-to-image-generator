@@ -1,0 +1,12 @@
+.footer-generate-btn{
+    background-color: black;
+    padding: 12px 34px;
+    border-radius: 22px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.footer-generate-btn:hover{
+    transform: scale(1.05);
+}

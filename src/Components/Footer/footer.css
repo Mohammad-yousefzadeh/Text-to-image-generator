@@ -1,0 +1,14 @@
+.social-media-brands{
+    font-size: 22px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media (max-width : 500px) {
+    .footer-copyright{
+        font-size: 10px;
+        font-weight: 700;
+    }
+}

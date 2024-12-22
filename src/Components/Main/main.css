@@ -1,0 +1,50 @@
+.main {
+    .generate-btn{
+        background-color: black;
+        padding: 12px 34px;
+        border-radius: 22px;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .btn-hover{
+        transition: all 0.3s;
+    }
+
+    .btn-hover:hover{
+        transform: scale(1.05);
+    }
+
+    h1{
+        font-size: 65px;
+    }
+
+    p{
+        font-weight: 600;
+    }
+
+    .recomendation-btn{
+        background-color: aliceblue;
+        border-radius: 20px;
+        padding: 6px 29px;
+        border: 1px solid rgb(184, 183, 183);
+        cursor: pointer;
+    }
+
+    img{
+        width: 90px;
+        border-radius: 4px;
+        transition: all 0.4s;
+        cursor: pointer;
+    }
+
+    img:hover{
+        transform: scale(1.1);
+    }
+
+    @media (max-width : 600px) {
+        h1{
+            font-size: 47px;
+        }
+    }
+}

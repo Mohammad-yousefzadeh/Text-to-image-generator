@@ -1,0 +1,33 @@
+.web-navbar{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+
+    .login-btn{
+        background-color: black;
+        color: white;
+        padding: 10px;
+        font-weight: 700;
+        border-radius: 25px;
+        max-width: 139px;
+        cursor: pointer;
+    }
+
+    a:hover{
+        text-decoration: none;
+    }
+
+    li{
+        transition: all 0.4s;
+    }
+
+    li:hover{
+        transform: scale(1.05);
+    }
+
+    .humberger{
+        font-size: 30px;
+    }
+}
+

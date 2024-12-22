@@ -1,0 +1,21 @@
+.description-image{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.description-image-box{
+    display: flex;
+    justify-content: end;
+}
+
+@media (max-width : 991px) {
+    .description-image{ 
+        width: 80%;
+    }
+
+    .description-image-box{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}

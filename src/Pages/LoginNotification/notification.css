@@ -1,0 +1,55 @@
+.notification{
+    width: 320px;
+    height: 70px;
+    display: none;
+    background-color: white;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    margin: 0%;
+    border: 1px solid rgb(189, 189, 189);
+    svg{
+        font-size: 24px;
+    }
+
+}
+
+.notif-display{
+    display: block;
+}
+
+.notif-bar{
+    background-color: green;
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+    height: 4px;
+    animation-name: notifBar;
+    animation-duration: 5s;
+}
+
+@media (max-width : 550px) {
+    .notification{
+        width: 210px;
+        right: 30px;
+        bottom: 20px;
+
+        span{
+            font-size: 15px;
+        }
+
+        svg{
+            font-size: 22px;
+        }
+    }
+}
+
+@keyframes notifBar {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 100%;
+    }
+}

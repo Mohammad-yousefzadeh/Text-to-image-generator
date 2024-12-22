@@ -1,0 +1,44 @@
+.pricing{
+    height: 88vh;
+
+    .pricing-cards{
+        padding: 10px;
+        border-radius: 8px;
+        background:#7bd1da9f;
+        box-shadow: 1px 1px 5px 1px rgb(148, 148, 148);
+        transition: all 0.4s;
+    }
+
+    .pricing-btn{
+        background-color: rgb(0, 6, 20);
+        transition: all 0.4s;
+        cursor: pointer;
+        color: white;
+        border: none;
+    }
+
+    .pricing-plans-btn{
+        background-color: rgb(255, 255, 255);
+        border-radius: 29px;
+        padding: 8px 42px;
+        border: 1px solid rgb(170, 170, 170);
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .pricing-plans-btn:focus{
+        outline: none;
+    }
+
+    p{
+        font-weight: 700;
+    }
+
+    span{
+        font-size: 32px;
+    }
+    
+    .pricing-cards:hover{
+        transform: scale(1.03);
+    }
+}
