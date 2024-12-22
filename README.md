@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+Dont test it . I used OpenAI api for this project and it has reached his limit
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
